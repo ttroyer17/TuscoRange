@@ -6,8 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
+    background-color: #dadada; 
 }
 
 /* Navigation */
@@ -15,14 +16,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2e7d5e;
+    background-color: #8b0000  ;
     padding: 15px 40px;
     position: sticky;
     top: 0;
 }
-
+ 
 .nav-brand {
-    color: white;
+    color: #dadada;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -34,7 +35,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: #dadada ;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -45,25 +46,46 @@ nav {
 
 /* Hero */
 .hero {
-    background-color: #e8f5ef;
+    background-color: #dadada;
     text-align: center;
     padding: 80px 20px;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    color: #2e7d5e;
-    margin-bottom: 15px;
+.hero h1 a {
+    color: #8b0000 !important;
+    text-decoration: none;
+}
+
+.hero h1 a:visited {
+    color: #8b0000 !important;
+}
+
+.hero h1 a:hover {
+    text-decoration: underline;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 25px;
-    color: #555;
+    color: #000000;
+}
+
+.hero p a {
+    color: #8b0000 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero p a:visited {
+    color: #8b0000 !important;
+}
+
+.hero p a:hover {
+    text-decoration: underline;
 }
 
 .button {
-    background-color: #2e7d5e;
+    background-color: #8b0000 ;
     color: white;
     padding: 12px 30px;
     border-radius: 25px;
@@ -72,7 +94,7 @@ nav {
 }
 
 .button:hover {
-    background-color: #245f49;
+    background-color: #2e7d5e ;
 }
 
 /* Sections */
@@ -83,10 +105,10 @@ section {
 }
 
 section h2 {
-    font-size: 2rem;
-    color: #2e7d5e;
+    font-size: 1.5rem;
+    color: #8b0000 ;
     margin-bottom: 20px;
-    border-bottom: 2px solid #e8f5ef;
+    border-bottom: 2px solid #1a73e8 ;
     padding-bottom: 10px;
 }
 
@@ -99,13 +121,13 @@ section h2 {
 }
 
 .service-card {
-    background-color: #e8f5ef;
+    background-color: #efefef;
     border-radius: 8px;
     padding: 25px;
 }
 
 .service-card h3 {
-    color: #2e7d5e;
+    color: #8b0000;
     margin-bottom: 10px;
 }
 
@@ -126,7 +148,7 @@ section h2 {
 }
 
 .contact-info a {
-    color: #2e7d5e;
+    color: #8b0000 ;
     text-decoration: none;
 }
 
@@ -137,7 +159,7 @@ section h2 {
 }
 
 .social-links a {
-    background-color: #2e7d5e;
+    background-color: #8b0000;
     color: white;
     padding: 8px 18px;
     border-radius: 20px;
@@ -145,7 +167,7 @@ section h2 {
 }
 
 .social-links a:hover {
-    background-color: #245f49;
+    background-color: #2e7d5e;
 }
 
 .contact-form {
@@ -165,7 +187,7 @@ section h2 {
 }
 
 .contact-form button {
-    background-color: #2e7d5e;
+    background-color: #8b0000;
     color: white;
     padding: 12px;
     border: none;
@@ -180,7 +202,7 @@ section h2 {
 
 /* Footer */
 footer {
-    background-color: #2e7d5e;
+    background-color: #8b0000 ;
     color: white;
     text-align: center;
     padding: 20px;
@@ -190,7 +212,7 @@ footer {
 .card-link {
     display: inline-block;
     margin-top: 15px;
-    color: #2e7d5e;
+    color: #8b0000 ;
     font-weight: bold;
     text-decoration: none;
 }
